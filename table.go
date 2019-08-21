@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/apcera/termtables/term"
+	"github.com/brettski/go-termtables/term"
 )
 
 // MaxColumns represents the maximum number of columns that are available for
