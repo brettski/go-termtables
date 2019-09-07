@@ -1,17 +1,25 @@
-# Go-Termtables
+_This repository was restored [here](https://github.com/brettski/go-termtables) after Apcera deleted their termtables repository on github. I was using the library on a project of mine and wanted to keep it around._
 
-[![Actions Status](https://github.com/brettski/go-termtables/workflows/Go/badge.svg)](https://github.com/brettski/go-termtables/actions)
-[![GoDoc](https://godoc.org/github.com/brettski/go-termtables?status.svg)](http://godoc.org/github.com/brettski/go-termtables)
+# Original Content (working on updating)
 
-A [Go](http://golang.org) port of the Ruby library [terminal-tables](https://github.com/visionmedia/terminal-table) for fast and simple ASCII table generation. This project was originally created by Apcera and adopted here when they removed it from GitHub.
+---
+
+# Termtables
+
+[![Build Status](https://travis-ci.org/apcera/termtables.svg?branch=master)](https://travis-ci.org/apcera/termtables)
+
+A [Go](http://golang.org) port of the Ruby library [terminal-tables](https://github.com/visionmedia/terminal-table) for
+fast and simple ASCII table generation.
 
 ## Installation
 
 ```bash
-go get github.com/brettski/go-termtables
+go get github.com/apcera/termtables
 ```
 
-or add as a Go module
+## Go Style Documentation
+
+[http://godoc.org/github.com/apcera/termtables](http://godoc.org/github.com/apcera/termtables)
 
 ## APC Command Line usage
 
@@ -28,7 +36,7 @@ package main
 
 import (
   "fmt"
-  termtables "github.com/brettski/go-termtables"
+  "github.com/apcera/termtables"
 )
 
 func main() {
@@ -45,7 +53,7 @@ func main() {
 
 Result:
 
-```console
+```
 +-------+-------+
 | Name  | Age   |
 +-------+-------+
