@@ -3,7 +3,7 @@
 [![Actions Status](https://github.com/brettski/go-termtables/workflows/Go/badge.svg)](https://github.com/brettski/go-termtables/actions)
 [![GoDoc](https://godoc.org/github.com/brettski/go-termtables?status.svg)](http://godoc.org/github.com/brettski/go-termtables)
 
-A [Go](http://golang.org) port of the Ruby library [terminal-tables](https://github.com/visionmedia/terminal-table) for fast and simple ASCII table generation. This project was originally created by Apcera and adopted here when they removed it from GitHub.
+A [Go](http://golang.org) port of the Ruby library [terminal-tables](https://github.com/visionmedia/terminal-table) for fast and simple ASCII table generation. This project was originally created by [Apcera](https://github.com/apcera) and adopted here when they removed it from GitHub.
 
 ## Installation
 
